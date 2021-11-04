@@ -4,7 +4,7 @@ class generatetable{
         {
             let row=document.createElement("tr");
             let table=document.getElementById(tableClass);
-            console.log(table);
+         // console.log(table);
             table.appendChild(row);
             for(let j=0;j<8;j++)
             {
