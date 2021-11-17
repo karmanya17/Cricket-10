@@ -52,7 +52,7 @@ class playinning{
     play(i,j,sum,team,btn,total):()=> void {
         return () => {
            
-             console.log(i+","+j);
+            // console.log(i+","+j);
             let run = Math.floor(Math.random() * 6);
             let id="team"+team+"_"+i+","+j;
             if(i>10&&run==0 ||i>10&&j>7)
