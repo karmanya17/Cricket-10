@@ -75,7 +75,7 @@ class playinning{
                     j++;
                     total+=run;
                 }
-                console.log(total)
+                //console.log(total)
                 document.getElementById("score"+team).innerText=total;
                 
             }
