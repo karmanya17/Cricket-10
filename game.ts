@@ -186,7 +186,7 @@ class result{
                 console.log(totalscore1);
                 console.log(totalscore2);
             }
-            console.log(score1);
+           // console.log(score1);
             console.log(score2);
             console.log(max1);
             console.log(max2);
