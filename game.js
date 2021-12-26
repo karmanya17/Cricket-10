@@ -3,7 +3,7 @@ var generatetable = /** @class */ (function () {
         for (var i = 0; i < 11; i++) {
             var row = document.createElement("tr");
             var table = document.getElementById(tableClass);
-            console.log(table);
+           // console.log(table);
             table.appendChild(row);
             for (var j = 0; j < 8; j++) {
                 var boxid = "team" + team + "_" + i + "," + j;
